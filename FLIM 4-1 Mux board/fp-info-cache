@@ -1,4 +1,4 @@
-24646169313036811
+24649752737704270
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55202,12 +55202,26 @@ CONV_PDSE1-S24-D24-M
 6
 6
 Custom
+Itsy Bitsy 32u4 with headers
+surface-mounted straight pin header, 1x14, 2.54mm pitch, single row, style 2 (pin 1 right)
+Surface mounted pin header SMD 1x14 2.54mm single row style2 pin1 right
+0
+33
+14
+Custom
 P204_SOT-89
 SOT-89
 SOT-89
 0
 3
 3
+Custom
+TSSLE 6868 R RNN J
+
+
+0
+0
+0
 Custom
 TSSOP_8109PWR_TEX
 
