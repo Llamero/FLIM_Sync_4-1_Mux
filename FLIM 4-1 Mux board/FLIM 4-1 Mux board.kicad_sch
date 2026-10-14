@@ -3408,7 +3408,7 @@
 		(uuid "1e3d08dd-60d6-4b71-910e-0e8932435854")
 	)
 	(junction
-		(at 146.05 41.91)
+		(at 149.86 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39d95fb6-37da-4b6b-9608-7d1da6db3603")
@@ -3450,6 +3450,12 @@
 		(uuid "7856a01c-508c-4d01-b175-bb4bc6588827")
 	)
 	(junction
+		(at 149.86 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81a3a3b8-0459-41e2-9d15-790bd64743bf")
+	)
+	(junction
 		(at 72.39 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3478,6 +3484,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d21bbeff-7548-4685-bebe-55f265392110")
+	)
+	(junction
+		(at 149.86 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3b353e7-ad4a-4bc0-8eac-4561587fb80f")
+	)
+	(junction
+		(at 149.86 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc72f50e-6729-4791-a2d5-c4dad7889c97")
 	)
 	(junction
 		(at 35.56 39.37)
@@ -3575,7 +3593,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 41.91) (xy 146.05 44.45)
+			(xy 149.86 25.4) (xy 149.86 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3685,6 +3703,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 53.34) (xy 149.86 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59bc1d6b-df6c-402f-b4c0-b2292dcc769f")
+	)
+	(wire
+		(pts
 			(xy 162.56 87.63) (xy 173.99 87.63)
 		)
 		(stroke
@@ -3712,6 +3740,16 @@
 			(type default)
 		)
 		(uuid "7806594c-211e-4ac4-bab7-f42f84f49484")
+	)
+	(wire
+		(pts
+			(xy 149.86 67.31) (xy 149.86 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8201b316-5556-44d2-b1a1-a2018ea94416")
 	)
 	(wire
 		(pts
@@ -3772,6 +3810,16 @@
 			(type default)
 		)
 		(uuid "ac341877-e00d-4cbe-9155-c4d94fa7c407")
+	)
+	(wire
+		(pts
+			(xy 149.86 39.37) (xy 149.86 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c939c48b-1255-44cb-a5b9-6890860329ea")
 	)
 	(wire
 		(pts
@@ -3885,7 +3933,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_LED")
-		(at 151.13 44.45 0)
+		(at 154.94 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3894,7 +3942,7 @@
 		(fields_autoplaced yes)
 		(uuid "0380890b-97f9-43f5-9f2c-32e9e3d61753")
 		(property "Reference" "SW1"
-			(at 151.13 34.29 0)
+			(at 154.94 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3950,7 @@
 			)
 		)
 		(property "Value" "SW_Push_LED"
-			(at 151.13 36.83 0)
+			(at 154.94 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +3958,7 @@
 			)
 		)
 		(property "Footprint" "Custom:TSSLE 6868 R RNN J"
-			(at 151.13 36.83 0)
+			(at 154.94 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +3967,7 @@
 			)
 		)
 		(property "Datasheet" "https://knitter-switch.com/wp-content/media/pms/Pushbutton%20Switches%20illuminated/TSSLE/TSSLE%206868%20R%20xyz%20J.pdf"
-			(at 151.13 36.83 0)
+			(at 154.94 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,7 +3976,7 @@
 			)
 		)
 		(property "Description" "Pushbutton Switch SPST-NO Standard, Illuminated Surface Mount"
-			(at 151.13 44.45 0)
+			(at 154.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3937,7 +3985,7 @@
 			)
 		)
 		(property "Manufacturer" "Knitter-Switch"
-			(at 151.13 44.45 0)
+			(at 154.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3946,7 +3994,7 @@
 			)
 		)
 		(property "Part #" "TSSLE 6868 R RNN J"
-			(at 151.13 44.45 0)
+			(at 154.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,6 +4085,91 @@
 			(project "FLIM 4-1 Mux board"
 				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07e9112a-f039-4602-ae34-22873b264a30")
+		(property "Reference" "R4"
+			(at 163.83 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 163.576 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 163.83 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
+			(at 163.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1K OHM 0.1% 1/8W 0805"
+			(at 163.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 163.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RG2012P-102-B-T5"
+			(at 163.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37c16085-f6fc-4c4e-bf41-786fb6a1518a")
+		)
+		(pin "1"
+			(uuid "10ca9713-231a-4ae9-802c-31555843abf1")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4303,6 +4436,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 149.86 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1013966f-6951-4719-a0a4-96e49900f865")
+		(property "Reference" "#PWR019"
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 145.034 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f26fc2dd-6d52-42b8-afeb-5fe90f859658")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 173.99 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4428,6 +4626,360 @@
 			(project "FLIM 4-1 Mux board"
 				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14663be5-70db-40de-897e-f5fa4b98106b")
+		(property "Reference" "R5"
+			(at 163.83 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 163.576 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 163.83 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
+			(at 163.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1K OHM 0.1% 1/8W 0805"
+			(at 163.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 163.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RG2012P-102-B-T5"
+			(at 163.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e843d085-7e99-4b4e-8779-2e6247c792f4")
+		)
+		(pin "1"
+			(uuid "acd1fb8f-1f58-4444-bf37-a3c575ad9a86")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_LED")
+		(at 154.94 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17465e9a-6422-4305-b593-6f6e12b8c26b")
+		(property "Reference" "SW3"
+			(at 154.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_LED"
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:TSSLE 6868 R RNN J"
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://knitter-switch.com/wp-content/media/pms/Pushbutton%20Switches%20illuminated/TSSLE/TSSLE%206868%20R%20xyz%20J.pdf"
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Standard, Illuminated Surface Mount"
+			(at 154.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Knitter-Switch"
+			(at 154.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TSSLE 6868 R RNN J"
+			(at 154.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0a19036f-0944-44c1-8179-a61d2351c4c8")
+		)
+		(pin "2"
+			(uuid "c94f394d-7b21-4554-b7d8-76b2a25da02f")
+		)
+		(pin "1"
+			(uuid "ee21ff8c-e3a3-4362-bda5-00af7a55053b")
+		)
+		(pin "4"
+			(uuid "bf6c67a3-19c8-4021-b342-b005d723a055")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_LED")
+		(at 154.94 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "179ea2f8-ffbb-434d-9dc1-954ed4c745c4")
+		(property "Reference" "SW2"
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_LED"
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:TSSLE 6868 R RNN J"
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://knitter-switch.com/wp-content/media/pms/Pushbutton%20Switches%20illuminated/TSSLE/TSSLE%206868%20R%20xyz%20J.pdf"
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Standard, Illuminated Surface Mount"
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Knitter-Switch"
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TSSLE 6868 R RNN J"
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3ab68077-b14f-44bf-b458-564829228f2d")
+		)
+		(pin "2"
+			(uuid "939845aa-ae84-4fbc-933c-d3ebb60defdb")
+		)
+		(pin "1"
+			(uuid "d74e26df-4dbe-40d1-b81d-d26263c90f11")
+		)
+		(pin "4"
+			(uuid "ffb78ce9-0b24-47c3-9c9b-c03e67dcc430")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17fd4265-bb5a-4f95-9f42-962588d2c25b")
+		(property "Reference" "R6"
+			(at 163.83 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 163.576 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 163.83 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1K OHM 0.1% 1/8W 0805"
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RG2012P-102-B-T5"
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "618744f0-807d-4fa8-a43b-3cb7e4cd2565")
+		)
+		(pin "1"
+			(uuid "28aca3cd-5e95-4f6f-848f-dd1b2d1f295d")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4740,7 +5292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 41.91 270)
+		(at 149.86 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4748,7 +5300,7 @@
 		(dnp no)
 		(uuid "34141770-a4d3-4d91-8c72-94ffa7984226")
 		(property "Reference" "#PWR017"
-			(at 139.7 41.91 0)
+			(at 143.51 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +5309,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 141.224 42.164 90)
+			(at 145.034 25.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4765,7 +5317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 41.91 0)
+			(at 149.86 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4774,7 +5326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 41.91 0)
+			(at 149.86 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,7 +5335,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 41.91 0)
+			(at 149.86 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5587,6 +6139,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_LED")
+		(at 154.94 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77b2e0d4-830b-4569-a3eb-e613ec4a6822")
+		(property "Reference" "SW4"
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_LED"
+			(at 154.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:TSSLE 6868 R RNN J"
+			(at 154.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://knitter-switch.com/wp-content/media/pms/Pushbutton%20Switches%20illuminated/TSSLE/TSSLE%206868%20R%20xyz%20J.pdf"
+			(at 154.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Standard, Illuminated Surface Mount"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Knitter-Switch"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TSSLE 6868 R RNN J"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "987ed2d8-f38e-441e-b537-b43fef9477c9")
+		)
+		(pin "2"
+			(uuid "3a06fd34-5a67-4b5c-9cf5-16ef4d37a9a6")
+		)
+		(pin "1"
+			(uuid "b8236469-7792-41a7-aabe-791bb1263d5b")
+		)
+		(pin "4"
+			(uuid "596e57a0-9a04-4c61-9b38-1dbe4fcdebd2")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8258306c-e68c-476c-b16f-6e879ae0fd59")
+		(property "Reference" "#PWR020"
+			(at 143.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 145.034 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28ffc3aa-cde6-4b40-bdf7-f991880fdea0")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 30.48 270)
 		(mirror x)
@@ -5892,6 +6601,71 @@
 			(project "FLIM 4-1 Mux board"
 				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9782aa3a-c581-48ab-8aa6-05814342104e")
+		(property "Reference" "#PWR021"
+			(at 143.51 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 145.034 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ebc4c77-566e-4759-92fe-d2fa4c2f1ee7")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6773,7 +7547,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 44.45 90)
+		(at 163.83 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6781,7 +7555,7 @@
 		(dnp no)
 		(uuid "e607dafd-1f60-4b97-845a-948fdc43090e")
 		(property "Reference" "R3"
-			(at 160.02 46.736 90)
+			(at 163.83 30.226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6789,7 +7563,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 159.766 44.45 90)
+			(at 163.576 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,7 +7571,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 160.02 46.228 90)
+			(at 163.83 29.718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +7580,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
-			(at 160.02 44.45 0)
+			(at 163.83 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,7 +7589,7 @@
 			)
 		)
 		(property "Description" "RES SMD 1K OHM 0.1% 1/8W 0805"
-			(at 160.02 44.45 0)
+			(at 163.83 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,7 +7598,7 @@
 			)
 		)
 		(property "Manufacturer" "Susumu"
-			(at 160.02 44.45 0)
+			(at 163.83 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6833,7 +7607,7 @@
 			)
 		)
 		(property "Part #" "RG2012P-102-B-T5"
-			(at 160.02 44.45 0)
+			(at 163.83 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
