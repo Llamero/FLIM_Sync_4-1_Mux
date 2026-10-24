@@ -5391,6 +5391,12 @@
 		)
 	)
 	(junction
+		(at 26.67 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dd7320e-867f-4fdb-9da9-b722ea6d3668")
+	)
+	(junction
 		(at 88.9 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5413,6 +5419,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14a2dabd-19d2-4d59-853f-89145f088e48")
+	)
+	(junction
+		(at 55.88 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e8bb0bd-2f97-4881-96b6-6513a77c5387")
 	)
 	(junction
 		(at 129.54 29.21)
@@ -5469,12 +5481,6 @@
 		(uuid "7270a713-4788-4771-abae-cc4b466cc1f0")
 	)
 	(junction
-		(at 45.72 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86f29f44-800a-4892-88df-1646161005b6")
-	)
-	(junction
 		(at 74.93 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5491,12 +5497,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2c038cf-9561-43a5-af79-b3a522c455f6")
-	)
-	(junction
-		(at 55.88 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6c0af6a-5177-40c8-9b68-16ae15dd28e3")
 	)
 	(junction
 		(at 250.19 123.19)
@@ -5527,12 +5527,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e36c7dc9-0abe-45d3-9a8a-54de39daa6d7")
-	)
-	(junction
-		(at 29.21 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e45c031c-a621-4cb3-9143-9fc9bb72019b")
 	)
 	(junction
 		(at 55.88 20.32)
@@ -5750,13 +5744,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 27.94) (xy 55.88 27.94)
+			(xy 74.93 88.9) (xy 78.74 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fe56eb1-1fe4-4d61-980a-c454212ed781")
+		(uuid "77bf26a5-6631-43b1-ba3e-c38b96f99746")
 	)
 	(wire
 		(pts
@@ -5800,7 +5794,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 20.32) (xy 29.21 20.32)
+			(xy 26.67 20.32) (xy 36.83 20.32)
 		)
 		(stroke
 			(width 0)
@@ -5850,6 +5844,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 86.36) (xy 49.53 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c9d7c2-2d00-4c91-bc49-c4105bfdbb35")
+	)
+	(wire
+		(pts
 			(xy 245.11 138.43) (xy 250.19 138.43)
 		)
 		(stroke
@@ -5877,16 +5881,6 @@
 			(type default)
 		)
 		(uuid "bf112e68-b0fa-49d1-9ee0-1dc1db1de15a")
-	)
-	(wire
-		(pts
-			(xy 29.21 20.32) (xy 36.83 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c212a312-d42f-417f-aaa7-deb74ee7b400")
 	)
 	(wire
 		(pts
@@ -5960,6 +5954,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 88.9) (xy 49.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddea8cdf-8bc9-41a9-8e88-57a0814853c6")
+	)
+	(wire
+		(pts
 			(xy 172.72 29.21) (xy 163.83 29.21)
 		)
 		(stroke
@@ -6018,6 +6022,16 @@
 		)
 		(uuid "f77da7ed-7728-49bc-91c6-d470c48a5f4c")
 	)
+	(text "Add pulldown resistor at input the schmitt trigger, and 10k to D1-D3 to allow cable to be disconnected. - ACASA100121002P100"
+		(exclude_from_sim no)
+		(at 110.744 64.77 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "3b560de3-a20b-4089-9a52-970c4690bda7")
+	)
 	(text "Drill 12 mm hole"
 		(exclude_from_sim no)
 		(at 217.932 95.25 0)
@@ -6027,6 +6041,16 @@
 			)
 		)
 		(uuid "abc5db96-431e-4fc2-bc4f-923c6abe6cf5")
+	)
+	(text "Add schmitt trigger SN74LVC1G17 to CLK at ethernet jack, and RC filters (1k + 8.2 nF) to D1-D3 at the ethernet jack"
+		(exclude_from_sim no)
+		(at 111.252 60.706 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "f134aa69-0f43-43b2-8120-e5449ceb6351")
 	)
 	(label "3v3"
 		(at 209.55 53.34 0)
@@ -7427,6 +7451,91 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 43.18 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c380581-9f51-48de-9740-e352370aed9c")
+		(property "Reference" "R14"
+			(at 43.18 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 43.18 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 43.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
+			(at 43.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+			(at 43.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 43.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RG1608P-102-B-T5"
+			(at 43.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a07d52a-cf2c-4c16-8606-8dc930dc0617")
+		)
+		(pin "2"
+			(uuid "4f517353-06d9-4696-b53f-f55187f25052")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 259.08 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8525,6 +8634,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 55.88 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ea2bb6e-657c-4704-b718-c143145a2473")
+		(property "Reference" "#PWR061"
+			(at 55.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 55.753 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 55.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f169078d-3e11-4166-aa2d-a5cc327114d9")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 171.45 0)
 		(unit 1)
@@ -8735,6 +8910,72 @@
 			(project "FLIM 4-1 Mux board"
 				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 88.9 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fb1f492-5d64-4f96-b30d-8e5a41ea536f")
+		(property "Reference" "#PWR064"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.646 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef0fffc1-989e-4e9c-8ef1-c2456f2758ad")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -9759,7 +10000,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 29.21 20.32 0)
+		(at 26.67 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9767,7 +10008,7 @@
 		(dnp no)
 		(uuid "42804621-575c-4363-a223-ffe4c69d5027")
 		(property "Reference" "#PWR041"
-			(at 29.21 24.13 0)
+			(at 26.67 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9776,7 +10017,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 26.162 16.764 0)
+			(at 23.622 16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9785,7 +10026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 20.32 0)
+			(at 26.67 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9794,7 +10035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 20.32 0)
+			(at 26.67 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9803,7 +10044,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 29.21 20.32 0)
+			(at 26.67 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11648,6 +11889,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "747a0d32-31f5-4994-903a-88f062fc7652")
+		(property "Reference" "R15"
+			(at 43.18 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 43.18 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RG1608P-102-B-T5"
+			(at 43.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4173bb4-38a1-4d13-ace5-2c770f486bd0")
+		)
+		(pin "2"
+			(uuid "a1679937-02b5-4eb8-a188-cbb6f68c609e")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 74.93 76.2 0)
 		(unit 1)
@@ -13341,6 +13667,71 @@
 			(project "FLIM 4-1 Mux board"
 				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "960850ab-667f-4186-bd1e-f344331a7752")
+		(property "Reference" "#PWR063"
+			(at 34.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.814 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf69d627-74b2-43f6-b799-c013348b53bd")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -15909,10 +16300,9 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e99431ee-b4d2-46d1-bf7d-2c54dd9ff3ec")
 		(property "Reference" "J9"
-			(at 19.05 13.97 0)
+			(at 18.796 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15920,7 +16310,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack"
-			(at 19.05 16.51 0)
+			(at 18.796 18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15982,6 +16372,71 @@
 			(project ""
 				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea8db06b-7e49-495f-bb5d-9e4a0e1adf80")
+		(property "Reference" "#PWR062"
+			(at 34.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.814 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad30d8e6-8abf-4017-af28-dfaa703ab0fd")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -16431,6 +16886,92 @@
 			(project "FLIM 4-1 Mux board"
 				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 81.28 88.9 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef22cd47-ca35-4b74-8869-0204b9b6f676")
+		(property "Reference" "R16"
+			(at 81.407 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 81.28 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RG1608P-102-B-T5"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d5b0c2e-be11-4b90-8117-5eb0183e581a")
+		)
+		(pin "2"
+			(uuid "45ffe149-abd0-493b-82c9-3cf1be7da457")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "R16")
 					(unit 1)
 				)
 			)
