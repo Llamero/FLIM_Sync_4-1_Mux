@@ -7081,8 +7081,16 @@
 		(uuid "3c5caa92-3a95-4703-bcc7-0018b30f3551")
 	)
 	(no_connect
+		(at 214.122 25.4)
+		(uuid "495eebe9-6c4c-4e90-81e5-1b882d8f1abc")
+	)
+	(no_connect
 		(at 248.92 27.94)
 		(uuid "5a68e93b-92ce-4b56-bae5-b0da7205033c")
+	)
+	(no_connect
+		(at 214.122 27.94)
+		(uuid "89717763-6913-4140-ade4-379841a17bf9")
 	)
 	(no_connect
 		(at 226.06 25.4)
@@ -23372,6 +23380,143 @@
 			(project "FLIM 4-1 Mux board"
 				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x14_Pin")
+		(at 209.042 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f501e8e5-d7ed-428a-9003-4a4ce2c6e76c")
+		(property "Reference" "J19"
+			(at 209.677 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x14_Pin"
+			(at 209.677 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.042 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tsm.pdf"
+			(at 209.042 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount 14 position 0.100\" (2.54mm)"
+			(at 209.042 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 209.042 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part #" "TSM-114-01-T-SV"
+			(at 209.042 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "f6a0a1cb-63cd-451e-bd26-29f51b09e978")
+		)
+		(pin "7"
+			(uuid "446aa305-3fd9-4cc2-a6fd-02ee90af10a2")
+		)
+		(pin "12"
+			(uuid "7de6cb5b-be01-45c9-be76-cf53f82f4f2f")
+		)
+		(pin "4"
+			(uuid "0f87e315-65f0-4db5-b05a-a021af3e8c85")
+		)
+		(pin "8"
+			(uuid "00cb5181-e5f5-4f7f-8a71-f3b6f2804269")
+		)
+		(pin "2"
+			(uuid "87806bff-f315-4abc-b22b-1d5fc9d792de")
+		)
+		(pin "11"
+			(uuid "123a2d9b-10da-4238-b36f-735d93a11bf5")
+		)
+		(pin "3"
+			(uuid "81f9c334-0042-4a51-b2cf-9be0fc9e10d2")
+		)
+		(pin "14"
+			(uuid "b1e3e61c-6a2d-45b9-bf11-88dc54f86e68")
+		)
+		(pin "10"
+			(uuid "3cc45233-9d2d-4ab1-93b9-5e38dab018c2")
+		)
+		(pin "9"
+			(uuid "933ed491-a1d2-4593-8eb6-a53b8139a7ee")
+		)
+		(pin "1"
+			(uuid "756d3c5b-3ee0-47a6-8978-b03f2a67aac1")
+		)
+		(pin "5"
+			(uuid "c291b6c6-b157-4b7b-8863-889de110e97b")
+		)
+		(pin "6"
+			(uuid "ab4b2abe-0606-4e7b-8cd9-9da00e3cbd2b")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "J19")
 					(unit 1)
 				)
 			)
