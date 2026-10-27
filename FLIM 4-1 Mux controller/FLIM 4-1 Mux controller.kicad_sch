@@ -6613,7 +6613,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 39.37 143.51 90)
+		(at 39.37 146.05 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6621,10 +6622,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6eb9310c-1688-411c-ba1d-b50baaa339d5")
-		(property "Reference" "RN1"
-			(at 39.37 135.5555 90)
+		(uuid "6a5a47b4-0858-4dbd-b1b6-a5a73909dbe0")
+		(property "Reference" "RN3"
+			(at 39.37 136.652 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6634,7 +6634,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 39.37 137.9798 90)
+			(at 39.37 138.684 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6644,7 +6644,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 39.37 136.525 90)
+			(at 39.37 153.035 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6654,8 +6654,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
-			(at 39.37 143.51 0)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
+			(at 39.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6665,8 +6665,8 @@
 				)
 			)
 		)
-		(property "Description" "1k Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
-			(at 39.37 143.51 0)
+		(property "Description" "22k Ohm ±1% 62.5mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
+			(at 39.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6676,8 +6676,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 39.37 143.51 0)
+		(property "Manufacturer" "Bourns Inc."
+			(at 39.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6687,8 +6687,8 @@
 				)
 			)
 		)
-		(property "Part #" "RAVF164DJT1K00"
-			(at 39.37 143.51 90)
+		(property "Part #" "CAY16-1001F4LF"
+			(at 39.37 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6699,33 +6699,33 @@
 			)
 		)
 		(pin "3"
-			(uuid "022ec8e3-225e-425a-8eff-f7bac9f21564")
+			(uuid "e6c419f5-ec29-42a4-aa6a-31fbeaae7475")
 		)
 		(pin "2"
-			(uuid "12f7e018-0c94-4d18-960d-1330c2fcab72")
+			(uuid "5509c095-a7d2-4d83-bb09-92e3794e39e5")
 		)
 		(pin "6"
-			(uuid "503c9821-68b2-484d-a80b-2b6b95cee743")
+			(uuid "ff0c6379-0ba6-4e35-8ee4-24df9daa41c3")
 		)
 		(pin "1"
-			(uuid "b7ad14fd-1241-45f5-bf3a-f11e698ba20b")
+			(uuid "de3c799e-3623-4656-9e37-7bf5582e8b75")
 		)
 		(pin "5"
-			(uuid "d7019ae4-4297-44ae-900d-a5598664dfd2")
+			(uuid "08a5a93f-be52-4d17-82e6-dd142734de58")
 		)
 		(pin "4"
-			(uuid "8d14400c-4ed4-4f98-92e4-2973d8f72a41")
+			(uuid "a6f0599a-00e6-48e8-8991-d143acfc4763")
 		)
 		(pin "7"
-			(uuid "2275834c-a842-40ba-ab30-2c62e3793315")
+			(uuid "bc91f772-38b3-4383-a43d-89c344588441")
 		)
 		(pin "8"
-			(uuid "a83d05c2-ac09-44a4-8c91-994bf0146dd0")
+			(uuid "0ccee337-d6f3-4128-a6e6-df3092a1bd70")
 		)
 		(instances
 			(project "FLIM 4-1 Mux controller"
 				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
-					(reference "RN1")
+					(reference "RN3")
 					(unit 1)
 				)
 			)

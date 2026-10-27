@@ -1,0 +1,4 @@
+(version 1)
+(rule "GNDPWR to GND gap"
+  (condition "(A.NetName == 'GNDPWR' && B.NetName == 'GND') || (A.NetName == 'GND' && B.NetName == 'GNDPWR')")
+  (constraint clearance (min 3mm)))

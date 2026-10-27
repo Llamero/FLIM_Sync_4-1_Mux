@@ -4976,12 +4976,6 @@
 		(uuid "3be77f55-af39-44e6-adb4-839aba3c28fe")
 	)
 	(junction
-		(at 146.05 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c5d1ac3-7496-4b85-8db6-cded19ead97e")
-	)
-	(junction
 		(at 102.87 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5048,6 +5042,12 @@
 		(uuid "dc624e26-1c99-4bfd-88f2-7780c6795237")
 	)
 	(junction
+		(at 146.05 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e59aac91-0338-4daa-a016-38d93ee9420f")
+	)
+	(junction
 		(at 142.24 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5095,6 +5095,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 81.28) (xy 134.62 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06930a1f-4643-48b2-bac2-eda7335cce6c")
+	)
+	(wire
+		(pts
 			(xy 45.72 24.13) (xy 55.88 24.13)
 		)
 		(stroke
@@ -5125,16 +5135,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 86.36) (xy 167.64 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13cc7339-bd9c-44d3-a71e-377f450ac685")
-	)
-	(wire
-		(pts
 			(xy 45.72 26.67) (xy 45.72 24.13)
 		)
 		(stroke
@@ -5155,6 +5155,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 83.82) (xy 138.43 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b4afcd-c0c5-40d6-9bb8-4fa6e3d74b15")
+	)
+	(wire
+		(pts
 			(xy 31.75 24.13) (xy 34.29 24.13)
 		)
 		(stroke
@@ -5165,26 +5175,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 167.64 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b71219a-ed73-4db2-b5ee-49fe312baef3")
-	)
-	(wire
-		(pts
-			(xy 167.64 77.47) (xy 154.94 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cc3fc32-1319-4498-b92b-e53a2c2d3775")
-	)
-	(wire
-		(pts
 			(xy 102.87 143.51) (xy 102.87 144.78)
 		)
 		(stroke
@@ -5192,6 +5182,26 @@
 			(type default)
 		)
 		(uuid "206bf731-ba90-4593-bea3-dcd9bf3c16d2")
+	)
+	(wire
+		(pts
+			(xy 154.94 77.47) (xy 154.94 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d56165-7a46-4995-90db-a9c39fe8880b")
+	)
+	(wire
+		(pts
+			(xy 154.94 92.71) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d6c2bf-4122-4968-b6bd-5e6a3a6a5347")
 	)
 	(wire
 		(pts
@@ -5215,16 +5225,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 92.71) (xy 154.94 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25ad1b75-f7e5-4468-88f1-ac76cb0ef852")
-	)
-	(wire
-		(pts
 			(xy 113.03 180.34) (xy 114.3 180.34)
 		)
 		(stroke
@@ -5245,13 +5245,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 96.52) (xy 144.78 88.9)
+			(xy 163.83 86.36) (xy 163.83 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b57c6a3-6b21-423c-ab18-cf08fd0a1ea4")
+		(uuid "3576dd15-179e-4386-b772-fe227eb3e410")
+	)
+	(wire
+		(pts
+			(xy 154.94 77.47) (xy 167.64 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3644b1af-6824-4835-aca0-4c03dc8820f7")
 	)
 	(polyline
 		(pts
@@ -5295,16 +5305,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 83.82) (xy 134.62 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "437f6843-5eb2-4ba4-8641-b1f993418b91")
-	)
-	(wire
-		(pts
 			(xy 55.88 24.13) (xy 55.88 26.67)
 		)
 		(stroke
@@ -5325,13 +5325,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 83.82) (xy 134.62 81.28)
+			(xy 144.78 73.66) (xy 144.78 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50816b3d-52f8-41b3-9961-87b45ef928eb")
+		(uuid "4adf4831-55ea-49e0-9bc1-6d5158155368")
+	)
+	(wire
+		(pts
+			(xy 144.78 83.82) (xy 138.43 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500b12db-8752-4fd0-9311-7d59b8f67854")
 	)
 	(wire
 		(pts
@@ -5342,6 +5352,16 @@
 			(type default)
 		)
 		(uuid "522d4407-6949-49d7-96f4-1e6e3419bbc1")
+	)
+	(wire
+		(pts
+			(xy 154.94 86.36) (xy 163.83 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b7cc7e-2baf-4458-b621-1a363178e26c")
 	)
 	(wire
 		(pts
@@ -5405,6 +5425,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 86.36) (xy 138.43 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71f76481-ad41-4eb7-8a66-848c32c36952")
+	)
+	(wire
+		(pts
 			(xy 134.62 96.52) (xy 144.78 96.52)
 		)
 		(stroke
@@ -5422,6 +5452,16 @@
 			(type default)
 		)
 		(uuid "7a2c1866-8951-4b9b-9984-3ff953923828")
+	)
+	(wire
+		(pts
+			(xy 163.83 83.82) (xy 163.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae5cd16-fa34-4159-8eee-b682f19c17c7")
 	)
 	(wire
 		(pts
@@ -5472,26 +5512,6 @@
 			(type default)
 		)
 		(uuid "8b4f995f-7691-4da9-aaf8-c81a9cf6687a")
-	)
-	(wire
-		(pts
-			(xy 144.78 86.36) (xy 134.62 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "960b6283-1f45-428d-9ad3-aa1677cb50ad")
-	)
-	(wire
-		(pts
-			(xy 167.64 83.82) (xy 167.64 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99b61d04-79f2-4f8e-b3db-d25a7286e2cc")
 	)
 	(wire
 		(pts
@@ -5553,6 +5573,26 @@
 		)
 		(uuid "ab09f94f-a921-485d-9c3c-0a2b87011a52")
 	)
+	(wire
+		(pts
+			(xy 154.94 92.71) (xy 154.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac93aef5-147a-431c-a1e2-b454c6f7ccec")
+	)
+	(wire
+		(pts
+			(xy 163.83 87.63) (xy 167.64 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2f706d-7c4d-46ce-814a-6078ebb8670f")
+	)
 	(polyline
 		(pts
 			(xy 120.015 60.96) (xy 120.015 117.475)
@@ -5562,6 +5602,16 @@
 			(type dash)
 		)
 		(uuid "b29df640-9d12-4285-9f03-703ee930c3f8")
+	)
+	(wire
+		(pts
+			(xy 163.83 82.55) (xy 167.64 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b448b138-71c9-4806-9ae3-20b8dca8f209")
 	)
 	(wire
 		(pts
@@ -5595,26 +5645,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 92.71) (xy 154.94 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf9eb521-bb17-45de-940f-6ca0212384e4")
-	)
-	(wire
-		(pts
-			(xy 154.94 77.47) (xy 154.94 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3e6ecc3-ec0a-4ae2-ae82-49520c9679cf")
-	)
-	(wire
-		(pts
 			(xy 69.85 24.13) (xy 78.74 24.13)
 		)
 		(stroke
@@ -5635,23 +5665,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 86.36) (xy 167.64 87.63)
+			(xy 144.78 86.36) (xy 138.43 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d93b95f4-b98e-45aa-9761-4d24822f274c")
-	)
-	(wire
-		(pts
-			(xy 144.78 73.66) (xy 144.78 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d93cf7a0-0c58-47a6-9f95-49b268bc4ea8")
+		(uuid "d5e6c1bf-deae-440b-b294-9849c5460239")
 	)
 	(wire
 		(pts
@@ -5685,13 +5705,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 86.36) (xy 134.62 88.9)
+			(xy 138.43 88.9) (xy 134.62 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1d79533-a646-4db6-a229-afa2e7fefb93")
+		(uuid "ed2decd0-98a5-4e7f-aa81-edb6820f6231")
 	)
 	(polyline
 		(pts
@@ -5702,6 +5722,26 @@
 			(type default)
 		)
 		(uuid "f70a4a7d-8a8e-497c-a0b1-ae7ea8788976")
+	)
+	(wire
+		(pts
+			(xy 154.94 83.82) (xy 163.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bcf9dd-b78e-47f1-8f6f-f6d4aef1f934")
+	)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 144.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa3ae117-3835-493c-9dbf-ddba9d4a7807")
 	)
 	(wire
 		(pts
@@ -5744,7 +5784,7 @@
 		(uuid "0690797f-1ba9-4c15-abed-40a271521a0d")
 	)
 	(label "D2"
-		(at 135.89 106.68 180)
+		(at 135.89 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5754,17 +5794,17 @@
 		(uuid "0ecd7364-de04-461f-9f96-233b351097f0")
 	)
 	(label "A2"
-		(at 55.88 88.9 0)
+		(at 29.21 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0f7b6136-11c2-4eed-917b-76ba858a06b9")
 	)
 	(label "CLK*"
-		(at 157.48 105.41 180)
+		(at 157.48 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5814,7 +5854,7 @@
 		(uuid "2b8ec5c5-f835-45a7-881e-247ee575e727")
 	)
 	(label "D2*"
-		(at 157.48 100.33 180)
+		(at 157.48 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5844,7 +5884,7 @@
 		(uuid "38fae5ff-40cf-43f0-b667-1d2dafaa9fb2")
 	)
 	(label "SH"
-		(at 157.48 107.95 180)
+		(at 157.48 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5854,12 +5894,12 @@
 		(uuid "3b8b57ad-81f5-4403-a75a-c3bec883d3db")
 	)
 	(label "A3"
-		(at 76.2 86.36 180)
+		(at 55.88 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "3b9999e0-7dc9-4504-a0dc-b9b3e8d1cd88")
 	)
@@ -5903,18 +5943,8 @@
 		)
 		(uuid "50d59f7d-70d4-48d4-9be8-7b2a8a7e08d8")
 	)
-	(label "D1*"
-		(at 154.94 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52213f25-f6ed-4a43-b56e-5b2da44d8bfb")
-	)
 	(label "CLK"
-		(at 135.89 111.76 180)
+		(at 135.89 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5924,7 +5954,7 @@
 		(uuid "56856f55-f3a0-42a2-836e-a4533f31892d")
 	)
 	(label "D1"
-		(at 29.21 78.74 180)
+		(at 76.2 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5932,6 +5962,16 @@
 			(justify right bottom)
 		)
 		(uuid "5bf6905d-d51e-4e08-8cf1-baaaaa39f88d")
+	)
+	(label "D1*"
+		(at 154.94 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "611aa231-6724-41fc-9cf0-e1bcac71ad33")
 	)
 	(label "A3*"
 		(at 107.95 152.4 90)
@@ -6014,12 +6054,12 @@
 		(uuid "989fcbfb-f8da-43ab-b54b-57ba45852003")
 	)
 	(label "B2"
-		(at 55.88 91.44 0)
+		(at 29.21 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "99522ca4-4a0e-47bb-aef5-bae2ec2e7379")
 	)
@@ -6034,7 +6074,7 @@
 		(uuid "9dfea9c6-93cb-4281-b711-5450be80c028")
 	)
 	(label "D1"
-		(at 135.89 104.14 180)
+		(at 135.89 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6054,12 +6094,12 @@
 		(uuid "a1447484-1ea5-42bf-966e-886e0330b0a2")
 	)
 	(label "D2"
-		(at 55.88 81.28 0)
+		(at 29.21 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a1e83150-d767-490c-8ab1-56efaa9af9b9")
 	)
@@ -6074,17 +6114,17 @@
 		(uuid "a28afc56-6dbb-4174-b7bb-ca3358261dbc")
 	)
 	(label "B3"
-		(at 76.2 88.9 180)
+		(at 55.88 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b314f5d3-ab85-4981-bade-1394cc37cb1b")
 	)
 	(label "D3"
-		(at 135.89 109.22 180)
+		(at 135.89 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6104,7 +6144,7 @@
 		(uuid "bd0b35ec-d4e8-4175-a053-60e7ae22fbe7")
 	)
 	(label "B1"
-		(at 29.21 88.9 180)
+		(at 76.2 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6124,12 +6164,12 @@
 		(uuid "cb447caf-14ef-431c-b51a-05203f30a23e")
 	)
 	(label "D3"
-		(at 76.2 78.74 180)
+		(at 55.88 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "cb80e899-541e-4ebb-adfa-d4b1ec63ab71")
 	)
@@ -6154,7 +6194,7 @@
 		(uuid "cdf74c0a-1452-4c69-b47c-9cff5284e26f")
 	)
 	(label "A1"
-		(at 29.21 86.36 180)
+		(at 76.2 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6184,7 +6224,7 @@
 		(uuid "dda1ab34-5f7f-41ea-9ffb-c63da85edaa7")
 	)
 	(label "D1*"
-		(at 157.48 110.49 180)
+		(at 157.48 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6627,7 +6667,7 @@
 				)
 			)
 		)
-		(property "Part #" "RG1608P-102-B-T5"
+		(property "Part #" "RNCP0402FTD1K00"
 			(at 20.32 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8048,85 +8088,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 85.09 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2d7029a2-0bed-4271-bc05-69031595f740")
-		(property "Reference" "#PWR034"
-			(at 161.29 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "879e2176-af34-477d-9d94-de553c63ad29")
-		)
-		(instances
-			(project "FLIM 4-1 Mux board"
-				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 69.85 29.21 0)
 		(mirror y)
 		(unit 1)
@@ -8981,7 +8942,7 @@
 				)
 			)
 		)
-		(property "Part #" "RG1608P-102-B-T5"
+		(property "Part #" "RNCP0402FTD1K00"
 			(at 72.39 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9161,7 +9122,7 @@
 				)
 			)
 		)
-		(property "Part #" "RG1608P-102-B-T5"
+		(property "Part #" "RNCP0402FTD1K00"
 			(at 46.99 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9627,7 +9588,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 140.97 106.68 90)
+		(at 140.97 109.22 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9635,10 +9597,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4780a701-d438-4af6-81e9-cd6422201e10")
 		(property "Reference" "RN2"
-			(at 140.97 98.7255 90)
+			(at 140.97 99.822 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9648,7 +9609,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 140.97 101.1498 90)
+			(at 140.97 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9658,7 +9619,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 140.97 99.695 90)
+			(at 140.97 116.205 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9669,7 +9630,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
-			(at 140.97 106.68 0)
+			(at 140.97 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9680,7 +9641,7 @@
 			)
 		)
 		(property "Description" "22k Ohm ±1% 62.5mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
-			(at 140.97 106.68 0)
+			(at 140.97 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9691,7 +9652,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns Inc."
-			(at 140.97 106.68 0)
+			(at 140.97 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9702,7 +9663,7 @@
 			)
 		)
 		(property "Part #" "CAY16-2202F4LF"
-			(at 140.97 106.68 90)
+			(at 140.97 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10668,126 +10629,6 @@
 			(project "FLIM 4-1 Mux board"
 				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04")
-		(at 149.86 83.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5df67d0b-a9a7-4583-9218-3545cb138222")
-		(property "Reference" "RN1"
-			(at 149.86 75.8655 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 149.86 78.2898 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 149.86 76.835 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RAVF.pdf"
-			(at 149.86 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1k Ohm ±5% 100mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
-			(at 149.86 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 149.86 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part #" "RNCP0402FTD1K00"
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "de8d1d3c-217c-49f2-b38e-14c223cf1a3c")
-		)
-		(pin "2"
-			(uuid "74b8392e-f8ba-4a8c-9c25-b9198450145b")
-		)
-		(pin "6"
-			(uuid "d6e7c47e-44c8-41f1-9920-0f65b9bf65fd")
-		)
-		(pin "1"
-			(uuid "b15acfcc-2912-4dcb-9f49-4884a57799bf")
-		)
-		(pin "5"
-			(uuid "666d90b1-4d26-4645-ae1b-6db0311bccb9")
-		)
-		(pin "4"
-			(uuid "b0903285-c619-45b8-bc9e-78efb1299fdc")
-		)
-		(pin "7"
-			(uuid "96e56682-103a-46e8-b669-b2b47f4a9682")
-		)
-		(pin "8"
-			(uuid "a057bdea-931c-4256-a92f-08647a6c07dc")
-		)
-		(instances
-			(project "FLIM 4-1 Mux board"
-				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
-					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -14398,7 +14239,7 @@
 				)
 			)
 		)
-		(property "Part #" "RG1608P-102-B-T5"
+		(property "Part #" "RNCP0402FTD1K00"
 			(at 34.29 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14679,7 +14520,7 @@
 				)
 			)
 		)
-		(property "Part #" "RG1608P-102-B-T5"
+		(property "Part #" "RNCP0402FTD1K00"
 			(at 59.69 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14780,7 +14621,7 @@
 				)
 			)
 		)
-		(property "Part #" "RG1608P-102-B-T5"
+		(property "Part #" "RNCP0402FTD1K00"
 			(at 85.09 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14980,6 +14821,85 @@
 			(project "FLIM 4-1 Mux board"
 				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 85.09 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c44b11a1-8f8b-4330-981c-59b608b3cf8e")
+		(property "Reference" "#PWR034"
+			(at 161.29 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a54187aa-ba00-459b-a610-06733c0356c7")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15411,6 +15331,126 @@
 			(project "FLIM 4-1 Mux board"
 				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04")
+		(at 149.86 86.36 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ccc1d52e-c47e-46c2-8563-aeb67d622488")
+		(property "Reference" "RN1"
+			(at 149.86 76.962 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 149.86 78.994 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 149.86 93.345 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
+			(at 149.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1k Ohm ±1% 62.5mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
+			(at 149.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 149.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part #" "CAY16-1001F4LF"
+			(at 149.86 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a23a74d0-a024-4874-893d-7a9c55b361bc")
+		)
+		(pin "2"
+			(uuid "2ff498fd-632d-4460-9bf8-493b1e47e759")
+		)
+		(pin "6"
+			(uuid "ec209629-c350-44ea-9d62-dac096b203e7")
+		)
+		(pin "1"
+			(uuid "8a443b04-b96e-43ca-8a95-9178f6c5d74d")
+		)
+		(pin "5"
+			(uuid "ff6f3406-7e50-4750-ae97-993c38df1fc0")
+		)
+		(pin "4"
+			(uuid "24a531a8-d8c4-4d19-bffc-c58eff1164df")
+		)
+		(pin "7"
+			(uuid "8ef89bc1-c0c0-4fde-8021-64cda50f8cd8")
+		)
+		(pin "8"
+			(uuid "9452872e-fc7b-4668-9142-6a91a817da6a")
+		)
+		(instances
+			(project "FLIM 4-1 Mux board"
+				(path "/9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
+					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -16140,7 +16180,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0d9fb94-c148-4f5b-831a-caced66e9c7b")
