@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.3,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.1,
           "pad_connection": 2,
@@ -76,7 +76,136 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|103560000|139960000|5a0b0d86-2de4-445c-b17a-46930dd7adad|02401895-1ef4-4443-adf1-0804643812b7",
+          ""
+        ],
+        [
+          "copper_edge_clearance|103560000|139960000|5a0b0d86-2de4-445c-b17a-46930dd7adad|3ece1d4e-4e83-4d33-8091-14284b71f460",
+          ""
+        ],
+        [
+          "copper_edge_clearance|103560000|139960000|f398481b-687d-43c6-937c-5e5c217b1026|02401895-1ef4-4443-adf1-0804643812b7",
+          ""
+        ],
+        [
+          "copper_edge_clearance|103560000|139960000|f398481b-687d-43c6-937c-5e5c217b1026|3ece1d4e-4e83-4d33-8091-14284b71f460",
+          ""
+        ],
+        [
+          "copper_edge_clearance|135550000|118050000|a48aaa5d-24ad-4804-862b-f1cbaac18d46|7abd2bad-5804-49eb-89b4-62a19c00703b",
+          ""
+        ],
+        [
+          "copper_edge_clearance|135550000|118050000|a48aaa5d-24ad-4804-862b-f1cbaac18d46|c487b48d-b350-4e38-a8bf-95c107667879",
+          ""
+        ],
+        [
+          "copper_edge_clearance|135550000|122550000|a48aaa5d-24ad-4804-862b-f1cbaac18d46|aac38fea-76ba-4dce-97ae-07bff3627888",
+          ""
+        ],
+        [
+          "copper_edge_clearance|135550000|126550000|a48aaa5d-24ad-4804-862b-f1cbaac18d46|0f1281e2-fedd-49bb-be3e-aeaec08229fd",
+          ""
+        ],
+        [
+          "copper_edge_clearance|135550000|126550000|a48aaa5d-24ad-4804-862b-f1cbaac18d46|81109c40-c63d-4f88-b1a9-d5ba054b2cfd",
+          ""
+        ],
+        [
+          "copper_edge_clearance|135550000|91050000|e82fa8b7-f2f7-48de-975c-3af8ee110cfa|3141ade8-2076-4c86-9a37-6ae1f6a17547",
+          ""
+        ],
+        [
+          "copper_edge_clearance|135550000|91050000|e82fa8b7-f2f7-48de-975c-3af8ee110cfa|ad67396b-35c9-4b64-bcf9-5c12c2dfc5ea",
+          ""
+        ],
+        [
+          "copper_edge_clearance|135550000|95550000|e82fa8b7-f2f7-48de-975c-3af8ee110cfa|155c6e4d-eba8-4185-9e1c-4f641f17790c",
+          ""
+        ],
+        [
+          "copper_edge_clearance|135550000|99550000|e82fa8b7-f2f7-48de-975c-3af8ee110cfa|1a366945-203b-42f0-b197-18edd2c865b6",
+          ""
+        ],
+        [
+          "copper_edge_clearance|135550000|99550000|e82fa8b7-f2f7-48de-975c-3af8ee110cfa|c9462bfd-2004-4458-be5c-a764ab64068a",
+          ""
+        ],
+        [
+          "copper_edge_clearance|64440000|118050000|1d2fb231-8ba3-4790-8835-e3deb5c790d0|201f80d5-ac25-4a67-a3db-8e383189a5c5",
+          ""
+        ],
+        [
+          "copper_edge_clearance|64440000|118050000|1d2fb231-8ba3-4790-8835-e3deb5c790d0|b9089b4f-cf58-4ffa-ba8f-4850919943ed",
+          ""
+        ],
+        [
+          "copper_edge_clearance|64440000|122550000|1d2fb231-8ba3-4790-8835-e3deb5c790d0|5c4c9ec5-6534-4510-8e87-768b22288ded",
+          ""
+        ],
+        [
+          "copper_edge_clearance|64440000|126550000|1d2fb231-8ba3-4790-8835-e3deb5c790d0|947201db-3742-4599-b6db-f53424257fc9",
+          ""
+        ],
+        [
+          "copper_edge_clearance|64440000|126550000|1d2fb231-8ba3-4790-8835-e3deb5c790d0|b7a59cff-22c0-4da2-946c-1ff44a7b5719",
+          ""
+        ],
+        [
+          "copper_edge_clearance|64440000|91050000|866c7a6b-ce68-4f5d-80d7-fc5c32f4518f|6cf7bbca-b5ee-462c-937d-b0b172754bed",
+          ""
+        ],
+        [
+          "copper_edge_clearance|64440000|91050000|866c7a6b-ce68-4f5d-80d7-fc5c32f4518f|9fbe9c74-e725-4c22-8317-8a92fa8f31d1",
+          ""
+        ],
+        [
+          "copper_edge_clearance|64440000|95550000|866c7a6b-ce68-4f5d-80d7-fc5c32f4518f|768c47be-62e9-4728-bbc8-fa57b33adece",
+          ""
+        ],
+        [
+          "copper_edge_clearance|64440000|99550000|866c7a6b-ce68-4f5d-80d7-fc5c32f4518f|234c58b8-46ae-4ffe-98e8-7f203607f279",
+          ""
+        ],
+        [
+          "copper_edge_clearance|64440000|99550000|866c7a6b-ce68-4f5d-80d7-fc5c32f4518f|97609466-d256-4558-9855-f9aedfb2109e",
+          ""
+        ],
+        [
+          "copper_edge_clearance|95060000|139960000|5a0b0d86-2de4-445c-b17a-46930dd7adad|0962fe52-0198-43c3-a8e3-147d6966e86b",
+          ""
+        ],
+        [
+          "copper_edge_clearance|95060000|139960000|5a0b0d86-2de4-445c-b17a-46930dd7adad|19678e8a-9fde-4402-85fe-61150be53e99",
+          ""
+        ],
+        [
+          "copper_edge_clearance|95060000|139960000|f398481b-687d-43c6-937c-5e5c217b1026|0962fe52-0198-43c3-a8e3-147d6966e86b",
+          ""
+        ],
+        [
+          "copper_edge_clearance|95060000|139960000|f398481b-687d-43c6-937c-5e5c217b1026|19678e8a-9fde-4402-85fe-61150be53e99",
+          ""
+        ],
+        [
+          "copper_edge_clearance|99560000|139960000|5a0b0d86-2de4-445c-b17a-46930dd7adad|42b6304d-ca9b-474e-87a2-3ba0f240ea38",
+          ""
+        ],
+        [
+          "copper_edge_clearance|99560000|139960000|f398481b-687d-43c6-937c-5e5c217b1026|42b6304d-ca9b-474e-87a2-3ba0f240ea38",
+          ""
+        ],
+        [
+          "missing_courtyard|118950000|82760000|40d07f3d-d163-4b89-ad4d-818c59789f29|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "missing_courtyard|126970000|81920000|c36aa290-a7bf-45e7-a6ba-6573051508d6|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -215,7 +344,7 @@
       ],
       "track_widths": [
         0.0,
-        0.1,
+        0.15,
         0.2,
         0.3345,
         0.5,
@@ -706,7 +835,7 @@
         "uuid": "9a5ec920-9f12-407d-b06b-b123ad2c0d9b"
       }
     ],
-    "used_designators": "#PWR1-86,C1-36,D1-4,F1,FB1,FL1,J1-9,J18-19,JP1,R1-8,R13-20,RN1-3,U1-7",
+    "used_designators": "#PWR1-86,#SYM1-2,C1-36,D1-4,F1,FB1,FL1,J1-9,J18-19,JP1,N1,R1-8,R13-20,RN1-3,U1-7",
     "variants": []
   },
   "sheets": [
